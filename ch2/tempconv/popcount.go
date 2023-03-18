@@ -9,7 +9,7 @@ func init() {
 	}
 }
 
-// PopCount returns the population count (number of set bits) of x.
+// PopCount 返回x的种群统计（置位的个数）
 func PopCount(x uint64) int {
 	return int(pc[byte(x>>(0*8))] +
 		pc[byte(x>>(1*8))] +
